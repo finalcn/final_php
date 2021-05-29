@@ -1,5 +1,24 @@
 {
     "name": "finalcn/final_php",
     "minimum-stability": "dev",
-    "require": {}
+    "description": "自用类",
+	"keywords": ["final php"],
+	"homepage": "http://final.ink",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/finalcn/final_php/issues",
+		"source": "https://github.com/finalcn/final_php"
+	},
+	"authors": [
+		{"name": "finalcn", "email": "finalcn@126.com"}
+	],
+	"require": {
+		"php": ">=7.1"
+	},
+
+    "autoload": {
+        "psr-4": {
+            "Finalcn\\Final_Php\\": "src"
+        }
+    }
 }
