@@ -3,8 +3,8 @@
     "packages": {
         "monolog/monolog": [
             {
-                "name": "finalcn/final_php",
-                "description": "final_self",
+                "name": "finalcn/finalphp",
+                "description": "final self",
                 "keywords": [
                     "log",
                     "logging",
