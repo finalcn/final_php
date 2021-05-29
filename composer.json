@@ -11,8 +11,8 @@
                     "psr-3"
                 ],
                 "homepage": "https://github.com/finalcn/final_php",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "main",
+                "version_normalized": "main",
                 "license": [
                     "MIT"
                 ],
