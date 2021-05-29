@@ -1,14 +1,62 @@
 {
-    "name": "finalcn/final_php",
-    "description": "final self",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "finalcn",
-            "email": "finalcn@126.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minified": "composer/2.0",
+    "packages": {
+        "monolog/monolog": [
+            {
+                "name": "finalcn/final_php",
+                "description": "final_self",
+                "keywords": [
+                    "log",
+                    "logging",
+                    "psr-3"
+                ],
+                "homepage": "https://github.com/finalcn/final_php",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "finalcn",
+                        "email": "finalcn@126.com",
+                        "homepage": "http://final.ink"
+                    }
+                ],
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/finalcn/final_php.git"
+                },
+                "type": "library"
+                "time": "2021-05-28T08:33:21+00:00",
+                "autoload": {
+                    "psr-4": {
+                        "Finalcn\\Final_php\\": "src/"
+                    }
+                },
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
+                "default-branch": true,
+                "require": {
+                    "php": ">=7.2"
+                },
+                "require-dev": {
+                    "catfan/medoo": ">1.50"
+                },
+                "suggest": {
+                    "catfan/medoo": "Allow sending log messages to a GrayLog2 server"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0.0"
+                },
+                "support": {
+                    "issues": "https://github.com/finalcn/finalcn_php/issues",
+                    "source": "https://github.com/finalcn/finalcn_php/tree/main"
+                }
+            }
+        ]
+    }
 }
