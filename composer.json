@@ -1,9 +1,9 @@
 {
     "minified": "composer/2.0",
     "packages": {
-        "monolog/monolog": [
+        "finalcn/final_php": [
             {
-                "name": "finalcn/finalphp",
+                "name": "finalcn/final_php",
                 "description": "final self",
                 "keywords": [
                     "log",
