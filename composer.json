@@ -1,7 +1,8 @@
 {
     "name": "finalcn/final_php",
     "minimum-stability": "dev",
-    "description": "自用类",
+    "description": "final self",
+    "type": "library",
 	"keywords": ["final php"],
 	"homepage": "http://final.ink",
 	"license": "MIT",
