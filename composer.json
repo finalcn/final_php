@@ -11,8 +11,8 @@
                     "psr-3"
                 ],
                 "homepage": "https://github.com/finalcn/final_php",
-                "version": "dev",
-                "version_normalized": "dev",
+                "version": "master",
+                "version_normalized": "master",
                 "license": [
                     "MIT"
                 ],
@@ -35,7 +35,7 @@
                     }
                 },
                
-                "default-branch": false,
+                "default-branch": true,
                 "require": {
                     "php": ">=7.2"
                 },
