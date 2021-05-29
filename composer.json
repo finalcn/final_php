@@ -27,7 +27,7 @@
                     "type": "git",
                     "url": "https://github.com/finalcn/final_php.git"
                 },
-                "type": "library"
+                "type": "library",
                 "time": "2021-05-28T08:33:21+00:00",
                 "autoload": {
                     "psr-4": {
