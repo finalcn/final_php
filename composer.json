@@ -1,18 +1,25 @@
 {
     "minified": "composer/2.0",
+    "name": "finalcn/final_php",
+    "repositories": [
+        {
+            "type": "library",
+            "url": "https://github.com/finalcn/final_php"
+        }
+    ],
     "packages": {
         "finalcn/final_php": [
             {
                 "name": "finalcn/final_php",
-                "description": "final self use php class",
+                "description": "final self",
                 "keywords": [
                     "log",
                     "logging",
                     "psr-3"
                 ],
                 "homepage": "https://github.com/finalcn/final_php",
-                "version": "master",
-                "version_normalized": "master",
+                "version": "main",
+                "version_normalized": "main",
                 "license": [
                     "MIT"
                 ],
@@ -34,16 +41,17 @@
                         "Finalcn\\Final_php\\": "src/"
                     }
                 },
-               
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.x-dev"
+                    }
+                },
                 "default-branch": true,
                 "require": {
                     "php": ">=7.2"
                 },
                 "require-dev": {
                     "catfan/medoo": ">1.50"
-                },
-                "suggest": {
-                    "catfan/medoo": "Allow sending log messages to a GrayLog2 server"
                 },
                 "provide": {
                     "psr/log-implementation": "1.0.0"
