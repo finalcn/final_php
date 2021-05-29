@@ -1,6 +1,11 @@
 {
     "minified": "composer/2.0",
     "name": "finalcn/final_php",
+    "autoload": {
+                    "psr-4": {
+                        "Finalcn\\Final_php\\": "src/"
+                    }
+                },
     "repositories": [
         {
             "type": "library",
